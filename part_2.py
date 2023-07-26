@@ -7,7 +7,7 @@ class Point():
 		self.y = y
 		
 	def __str__(self):
-		return f'({self.x,1}, {self.y})' 
+		return f'({self.x}, {self.y})' 
 
 # Major 
 class Vessel:
@@ -94,7 +94,7 @@ class CommandShip(Battleship):
     def __init__(self):
         self.is_command_ship = True
 
-# Pour créer des ships : 
+### commande to create Vessel: 
 # refueling = Refueling()
 # mechanical_assist = MechanicalAssistance()
 # cargo = Cargo()

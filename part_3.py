@@ -1,13 +1,16 @@
+# Space Defense
+# 26/07/2023, by Antoine Boutet
+
 import random
 import math
-
-# Function to calculate Euclidean distance between two points
-def calculate_distance(point1, point2):
-    return math.sqrt((point1[0] - point2[0])**2 + (point1[1] - point2[1])**2)
 
 # Define constants for fleet and grid size
 FLEET_SIZE = 50
 GRID_SIZE = 100
+
+# Function to calculate Euclidean distance between two points
+def calculate_distance(point1, point2):
+    return math.sqrt((point1[0] - point2[0])**2 + (point1[1] - point2[1])**2)
 
 # Function to generate random positions for the fleet
 def generate_random_positions(fleet_size, grid_size):
